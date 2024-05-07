@@ -1,0 +1,11 @@
+# Chess-pionage v2024.04.29
+**Authors**: Mharlo Borromeo, Tuaha Khan, Jack Lu, Calvin Nguyen, Mervin Nguyen, Peter Nguyen
+
+**Last modified**: 29 April 2024
+
+**How to install**: Please look at INSTALL file for detailed instructions on how to install and run the program. 
+Download .tar, unpack/extract using gtar, navigate to 'bin' directory within Linux, run executable by using './chesspionage' command. 
+
+### Developer's notes: How to Tar
+tar -zcvf Chess_Alpha.tar.gz ./doc/README ./doc/COPYRIGHT ./bin/Chess ./doc/Chess_UserManual.pdf ./doc/INSTALL ./Makefile 
+tar -zcvf Chess_Alpha_src.tar.gz ./doc ./bin ./src ./Makefile

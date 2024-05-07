@@ -1,0 +1,20 @@
+# Installation instructions: 
+Installation (basic user, no building or compiling necessary, v2024.04.29)
+
+1. Download Chess_Alpha.tar.gz compressed folder. 
+2. Navigate to the directory where the Chess_Alpha.tar.gz folder is located after downloading(for example, 'cd Downloads'), and then run command (in terminal) ‘gtar xvzf Chess_Alpha.tar.gz’ in order to unpack/unzip the file. 
+3. Navigate within the newly unzipped folder in the terminal ('cd chess'), and then navigate to the ‘bin’ folder in order to run the program executable (‘./chesspionage’).
+
+Advanced Installation (advanced user, requires different folders in order to build and compile properly). 
+
+1. Download Chess_Alpha_src.tar.gz compressed folder. 
+2. Navigate to the directory where the Chess_Alpha_src.tar.gz folder is located after downloading(for example, 'cd Downloads'), and then run command (in terminal) ‘gtar xvzf Chess_Alpha_src.tar.gz’. 
+3. Navigate within the newly unzipped folder in the terminal ('cd chess'), and then run the command ‘make all’ in order to build and compile the Chess executable within the ‘bin’ folder. 
+4. Optionally, utilize commands ‘make clean’ in order to remove all object files and executable files created by the ‘make/make all’ command. 
+5. Optionally, command ‘make test’ can also be used to create executables 'testRules' and 'testBoardDisplay' in order to check all programmed rules of the chess game and the displaying/updating of the chessboard within the terminal, respectively (navigate to 'bin' folder, use './test_rulecheck' and/or '/test_boarddisplay' to run executables). 
+6. Optionally, use command ‘make gtar’ in order to create a tar of the source code package (compress the source code package) that will execute the macro ‘gtar cvzf Chess_Alpha_src.tar.gz’ along with all bundled files. 
+7. Navigate within the ‘bin’ folder and then run the executable by using the command ‘./chesspionage’.
+
+Uninstallation (for both basic and advanced users)
+
+1. Navigate to the folder where Chess_Alpha.tar.gz or Chess_Alpha_src.tar.gz was uncompressed within terminal ('cd Downloads', then 'cd chess'), taking extra care that there are no other contents in the folder besides the files that were unzipped from the Chess_Alpha.tar.gz file or Chess_Alpha_src.tar.gz, then use 'rm -f *' to remove all files within the downloaded and unzipped folder without needing to authorize the deletion of each file at a time. 
