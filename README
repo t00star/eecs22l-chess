@@ -9,3 +9,8 @@ Download .tar, unpack/extract using gtar, navigate to 'bin' directory within Lin
 ### Developer's notes: How to Tar
 tar -zcvf Chess_Alpha.tar.gz ./doc/README ./doc/COPYRIGHT ./bin/Chess ./doc/Chess_UserManual.pdf ./doc/INSTALL ./Makefile 
 tar -zcvf Chess_Alpha_src.tar.gz ./doc ./bin ./src ./Makefile
+
+Final Release Score: 90 (+22 bonus points)
+Total Project 1 Score: 97+100+83+112=392 (98%)
+Functionality: NO MOVELOG, random AI, player can choose PVP or PVE (can be black or white as PVE), NO GUI, text terminal application only,
+program functionality not fully tested/debugged (many segfaults but program does mostly run ok)
